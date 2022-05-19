@@ -7,8 +7,8 @@ public class Sketch extends PApplet {
   int intCellWidth = 20;
   int intCellLength = 20;
   int intMargin = 5;
-  int intRowCount = 10;
-  int intColumnCount = 10;
+  int intRowCount = 20;
+  int intColumnCount = 20;
   int intScreenWidth = (intRowCount*intCellWidth) + ((intRowCount + 1) * intMargin);
   int intScreenLength = (intColumnCount*intCellLength) + ((intColumnCount + 1) * intMargin);
   int counter;
@@ -127,7 +127,7 @@ public class Sketch extends PApplet {
     }
   }
 
-  if (Max <= 1){
+  if (Max <= 2){
     System.out.println("Row " + y + " has " + RowCounter + " cells selected");
     RowCounter = 0;
     Continue = 0;
