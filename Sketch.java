@@ -1,5 +1,3 @@
-import javax.swing.plaf.basic.BasicBorders.MarginBorder;
-
 import processing.core.PApplet;
 
 public class Sketch extends PApplet {
@@ -7,8 +5,8 @@ public class Sketch extends PApplet {
   int intCellWidth = 20;
   int intCellLength = 20;
   int intMargin = 5;
-  int intRowCount = 20;
-  int intColumnCount = 20;
+  int intRowCount = 10;
+  int intColumnCount = 10;
   int intScreenWidth = (intRowCount*intCellWidth) + ((intRowCount + 1) * intMargin);
   int intScreenLength = (intColumnCount*intCellLength) + ((intColumnCount + 1) * intMargin);
   int counter;
